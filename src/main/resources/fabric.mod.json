@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "learning",
+	"version": "${version}",
+	"name": "Learning",
+	"description": "Im learning to make my own Fabric mods",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://samvolvo.com/",
+		"sources": "https://github.com/SamVolvo"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/learning/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.samvolvo.learning.Learning"
+		],
+		"fabric-datagen": [
+			"com.samvolvo.learning.LearningDataGenerator"
+		],
+		"client": [
+			"com.samvolvo.learning.LearningClient"
+		]
+	},
+	"mixins": [
+		"learning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
