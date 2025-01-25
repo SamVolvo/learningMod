@@ -1,6 +1,7 @@
 package com.samvolvo.learning;
 
 import com.samvolvo.learning.block.ModBlocks;
+import com.samvolvo.learning.item.ModItemGroups;
 import com.samvolvo.learning.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,8 @@ public class Learning implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Loading Mod!");
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
