@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "learning",
 	"version": "${version}",
-	"name": "Learning",
+	"name": "learning",
 	"description": "Im learning to make my own Fabric mods",
 	"authors": [
 		"Me!"
