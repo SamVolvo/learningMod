@@ -1,10 +1,13 @@
 {
   "item.learning.pink_garnet": "Pink Garnet",
   "item.learning.raw_pink_garnet": "Raw Pink Garnet",
+  "item.learning.chisel": "Chisel",
 
   "block.learning.pink_garnet_block": "Block of Pink Garnet",
   "block.learning.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.learning.pink_garnet_ore": "Pink Garnet Ore",
+  "block.learning.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "itemgroup.learning.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.learning.pink_garnet_Blocks": "Pink Garnet Blocks"
+  "itemgroup.learning.pink_garnet_blocks": "Pink Garnet Blocks"
 }
