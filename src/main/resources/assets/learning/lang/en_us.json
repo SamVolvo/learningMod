@@ -2,12 +2,20 @@
   "item.learning.pink_garnet": "Pink Garnet",
   "item.learning.raw_pink_garnet": "Raw Pink Garnet",
   "item.learning.chisel": "Chisel",
+  "item.learning.cauliflower": "Cauliflower",
+  "item.learning.starlight_ashes": "Starlight Ashes",
 
   "block.learning.pink_garnet_block": "Block of Pink Garnet",
   "block.learning.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.learning.pink_garnet_ore": "Pink Garnet Ore",
   "block.learning.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.learning.magic_block": "Magic Block",
 
   "itemgroup.learning.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.learning.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.learning.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.learning.magic_block": "§eThis block is very §9magical",
+  "tooltip.learning.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.learning.chisel": "Press §eShift §rfor more information!",
+  "tooltip.learning.cauliflower": "This is §cdelicious!"
 }
