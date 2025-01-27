@@ -1,3 +1,6 @@
-// 1.21.1	2025-01-27T01:46:49.0358134	learning/Tags for minecraft:block
+// 1.21.1	2025-01-27T22:42:53.6446483	learning/Tags for minecraft:block
 a7dadd72b8cb25b6f03e8c3555ff0f20589799ff data\minecraft\tags\block\needs_iron_tool.json
-210e55a1a2734964e8f17dba122872da027a3717 data\minecraft\tags\block\mineable\pickaxe.json
+5dcfb757c84a670f14a7162d43bbc0f58f714f72 data\minecraft\tags\block\walls.json
+30b0d522d0aa855422cf7d01a39d7e35bb08c3d0 data\minecraft\tags\block\fences.json
+42669de4d67b311df39dcdd9be3678ae7bf31f00 data\minecraft\tags\block\fence_gates.json
+e2b3241368856d997a08d78eef613ba4a8503437 data\minecraft\tags\block\mineable\pickaxe.json

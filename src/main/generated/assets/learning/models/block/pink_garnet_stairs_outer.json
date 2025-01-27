@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "learning:block/pink_garnet_block",
+    "side": "learning:block/pink_garnet_block",
+    "top": "learning:block/pink_garnet_block"
+  }
+}

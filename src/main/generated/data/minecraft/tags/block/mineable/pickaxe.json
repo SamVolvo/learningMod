@@ -4,6 +4,15 @@
     "learning:raw_pink_garnet_block",
     "learning:pink_garnet_ore",
     "learning:pink_garnet_deepslate_ore",
-    "learning:magic_block"
+    "learning:magic_block",
+    "learning:pink_garnet_stairs",
+    "learning:pink_garnet_slab",
+    "learning:pink_garnet_button",
+    "learning:pink_garnet_pressure_plate",
+    "learning:pink_garnet_fence_gate",
+    "learning:pink_garnet_fence",
+    "learning:pink_garnet_wall",
+    "learning:pink_garnet_door",
+    "learning:pink_garnet_trapdoor"
   ]
 }
