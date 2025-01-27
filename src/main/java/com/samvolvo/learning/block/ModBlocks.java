@@ -2,6 +2,7 @@ package com.samvolvo.learning.block;
 
 import com.samvolvo.learning.Learning;
 import com.samvolvo.learning.block.custom.MagicBlock;
+import com.samvolvo.learning.block.custom.PinkGarnetLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -123,5 +124,13 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.IRON,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()
                     ));
+
+    /// Pink Garnet Lamp
+    public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f)
+                    .requiresTool()
+                    .luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)
+            ));
 
 }
