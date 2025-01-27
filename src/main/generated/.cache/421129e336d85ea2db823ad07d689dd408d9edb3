@@ -1,0 +1,6 @@
+// 1.21.1	2025-01-27T01:46:49.0348115	learning/Block Loot Tables
+c900815992c687148669341a2b3d126fd7a70376 data\learning\loot_table\blocks\pink_garnet_ore.json
+2cbd94b838ffe5f2cc91da5e99a29251f252ffe9 data\learning\loot_table\blocks\raw_pink_garnet_block.json
+4e1009f3328dafee72e0aac782f7efece18cb386 data\learning\loot_table\blocks\magic_block.json
+b3747f6e0a2821021655626ea83220982120ea62 data\learning\loot_table\blocks\pink_garnet_block.json
+7fe25f1d6ecb40ac78160249dac89396cf2d5195 data\learning\loot_table\blocks\pink_garnet_deepslate_ore.json

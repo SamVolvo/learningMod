@@ -26,6 +26,6 @@ public class Learning implements ModInitializer {
 
 	/// Register all fuel
 	private void initializeFuel(){
-		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 1600);
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 16000);
 	}
 }
