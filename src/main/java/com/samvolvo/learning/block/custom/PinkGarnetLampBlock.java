@@ -3,6 +3,8 @@ package com.samvolvo.learning.block.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.ActionResult;
@@ -23,6 +25,8 @@ public class PinkGarnetLampBlock extends Block {
         if (!world.isClient){
             world.setBlockState(pos, state.cycle(CLICKED));
         }
+
+        world.playSound(player, pos, SoundEvents.BLOCK_LEVER_CLICK, SoundCategory.BLOCKS);
         return ActionResult.SUCCESS;
     }
 

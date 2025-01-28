@@ -1,2 +1,7 @@
-// 1.21.1	2025-01-27T23:07:17.5822824	learning/Tags for minecraft:item
+// 1.21.1	2025-01-28T00:20:30.7020544	learning/Tags for minecraft:item
+bd41751125cc345127d0f3a6578e99ae75f11d5c data\minecraft\tags\item\hoes.json
+88dd197ddb0e3daa2afe8ea33eb77a713707737e data\minecraft\tags\item\axes.json
+c337ba9c8f0be2a8def1150f0cdb3c662b88fd1a data\minecraft\tags\item\shovels.json
+8c7e306da42ac988ec4ae8d0f3fa94522acc8b1e data\minecraft\tags\item\swords.json
+c859d46762635e9842e3d6539bfcd4fea95ad15a data\minecraft\tags\item\pickaxes.json
 4b92001710544aa3f0bb027c26f7376ef9eedf9e data\learning\tags\item\transformable_items.json
