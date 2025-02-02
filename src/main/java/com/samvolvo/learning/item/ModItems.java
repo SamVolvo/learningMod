@@ -82,10 +82,8 @@ public class ModItems {
                     ));
 
     public static final Item PINK_GARNET_CHESTPLATE = registerItem("pink_garnet_chestplate",
-            new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Settings()
-                            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))
-                    ));
+            new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
 
     public static final Item PINK_GARNET_LEGGINS = registerItem("pink_garnet_leggins",
             new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
