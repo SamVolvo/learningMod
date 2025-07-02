@@ -1,0 +1,46 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.learning.chisel_use",
+    "sounds": [
+      "learning:chisel_use"
+    ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.learning.magic_block_break",
+    "sounds": [
+      "learning:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.learning.magic_block_step",
+    "sounds": [
+      "learning:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.learning.magic_block_place",
+    "sounds": [
+      "learning:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.learning.magic_block_hit",
+    "sounds": [
+      "learning:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.learning.magic_block_fall",
+    "sounds": [
+      "learning:magic_block_fall"
+    ]
+  },
+  "i_am_samvolvo": {
+    "sounds": [
+      {
+        "name": "learning:i_am_samvolvo",
+        "stream": true
+      }
+    ]
+  }
+}

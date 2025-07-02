@@ -1,12 +1,14 @@
 package com.samvolvo.learning.datagen;
 
+import com.samvolvo.learning.Learning;
 import com.samvolvo.learning.block.ModBlocks;
 import com.samvolvo.learning.block.custom.PinkGarnetLampBlock;
 import com.samvolvo.learning.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
-import net.minecraft.item.ArmorItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.equipment.EquipmentModel;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -49,7 +51,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        // itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
@@ -59,12 +61,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_LEGGINS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_BOOTS);
+        itemModelGenerator.registerArmor(ModItems.PINK_GARNET_HELMET, Identifier.of(Learning.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Learning.MOD_ID, "pink_garnet")).build(), EquipmentSlot.HEAD);
+        itemModelGenerator.registerArmor( ModItems.PINK_GARNET_CHESTPLATE, Identifier.of(Learning.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Learning.MOD_ID, "pink_garnet")).build(), EquipmentSlot.CHEST);
+        itemModelGenerator.registerArmor( ModItems.PINK_GARNET_LEGGINS, Identifier.of(Learning.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Learning.MOD_ID, "pink_garnet")).build(), EquipmentSlot.LEGS);
+        itemModelGenerator.registerArmor( ModItems.PINK_GARNET_BOOTS, Identifier.of(Learning.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Learning.MOD_ID, "pink_garnet")).build(), EquipmentSlot.FEET);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KAUPEN_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.I_AM_SAMVOLVO_MUSIC_DISK, Models.GENERATED);
 
     }
 }

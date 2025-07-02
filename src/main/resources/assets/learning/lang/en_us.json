@@ -15,6 +15,15 @@
   "item.learning.pink_garnet_leggins": "Pink Garnet Leggings",
   "item.learning.pink_garnet_boots": "Pink Garnet Boots",
   "item.learning.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+  "item.learning.kaupen_armor_trim_smithing_template": "Kaupen Armor Trim Template",
+  "item.learning.kaupen_bow": "Kaupen Bow",
+
+  "item.learning.i_am_samvolvo_music_disc": "I am SamVolvo Music Disc",
+  "item.learning.i_am_samvolvo_music_disc.desc": "SamVolvo - I am SamVolvo",
+
+
+  "trim_material.learning.pink_garnet": "Pink Garnet Material",
+  "trim_material.learning.kaupen": "Kaupen Armor Pattern",
 
   "block.learning.pink_garnet_block": "Block of Pink Garnet",
   "block.learning.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -38,5 +47,19 @@
   "tooltip.learning.magic_block": "§eThis block is very §9magical",
   "tooltip.learning.chisel.shift_down": "This item chisels blocks into Bricks!",
   "tooltip.learning.chisel": "Press §eShift §rfor more information!",
-  "tooltip.learning.cauliflower": "This is §cdelicious!"
+  "tooltip.learning.cauliflower": "This is §cdelicious!",
+
+  "effect.learning.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.slimey_potion": "Arrow of Slime",
+
+  "painting.learning.world.title": "World",
+  "painting.learning.world.author": "NanoAttack",
+  "painting.learning.shrimp.title": "Shrimp",
+  "painting.learning.shrimp.author": "NanoAttack",
+  "painting.learning.saw_them.title": "Saw Them",
+  "painting.learning.saw_them.author": "NanoAttack"
 }

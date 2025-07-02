@@ -1,7 +1,9 @@
-// 1.21.1	2025-02-02T23:33:49.6289118	learning/Tags for minecraft:item
+// 1.21.1	2025-06-15T21:43:36.1921814	learning/Tags for minecraft:item
 bd41751125cc345127d0f3a6578e99ae75f11d5c data\minecraft\tags\item\hoes.json
 d227b5a12786c21d3fe92cb4e87e18ffe89de95b data\minecraft\tags\item\trimmable_armor.json
+66e10f337c53ff43711777dffa0d946026d0a71c data\minecraft\tags\item\trim_templates.json
 88dd197ddb0e3daa2afe8ea33eb77a713707737e data\minecraft\tags\item\axes.json
+756de758dfc04bbbc222b0a6e4c7c4f1e09ea5af data\minecraft\tags\item\trim_materials.json
 c337ba9c8f0be2a8def1150f0cdb3c662b88fd1a data\minecraft\tags\item\shovels.json
 8c7e306da42ac988ec4ae8d0f3fa94522acc8b1e data\minecraft\tags\item\swords.json
 c859d46762635e9842e3d6539bfcd4fea95ad15a data\minecraft\tags\item\pickaxes.json

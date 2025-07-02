@@ -34,6 +34,10 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET_BOOTS);
 
                         entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
+                        entries.add(ModItems.KAUPEN_SMITHING_TEMPLATE);
+
+                        entries.add(ModItems.KAUPEN_BOW);
+                        entries.add(ModItems.I_AM_SAMVOLVO_MUSIC_DISK);
                     }).build()
             );
 

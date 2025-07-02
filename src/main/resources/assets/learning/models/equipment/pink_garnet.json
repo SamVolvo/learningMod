@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "learning:pink_garnet"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "learning:pink_garnet"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "learning:pink_garnet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "learning:item/kaupen_bow",
+    "textures": {
+        "layer0": "learning:item/kaupen_bow_pulling_2"
+    }
+}
